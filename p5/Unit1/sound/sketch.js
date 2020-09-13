@@ -10,9 +10,6 @@ function setup() {
 
 }
 
-function touchStarted() {
-  getAudioContext().resume();
-}
 
 function draw() {
   background(100);
