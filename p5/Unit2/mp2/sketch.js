@@ -28,7 +28,7 @@ function draw() {
 
       case 1:
       background ('black');
-      image(img2, width/2, height/2+210, 400, 200);
+      image(img2, 800, 800);
 
       timer = timer + 1;
       if (timer > 5 * 60){
@@ -39,7 +39,12 @@ function draw() {
 
       case 2:
       background ('red');
-      image(img3, width/2, height/2+210, 400, 200);
+      image(img3, 800, 800);
+      timer = timer + 1;
+      if (timer > 5 * 60){
+        state = 0;
+      timer = 0;
+      }
       break;
 
   }
