@@ -8,8 +8,6 @@ function setup() {
   img1 = loadImage('assets/1.png');
   img2 = loadImage('assets/2.png');
   img3 = loadImage('assets/3.png');
-
-    imageMode(CENTER)
 }
 
 function draw() {
