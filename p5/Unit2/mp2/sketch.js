@@ -8,6 +8,8 @@ function setup() {
   img1 = loadImage('assets/1.png');
   img2 = loadImage('assets/2.png');
   img3 = loadImage('assets/3.png');
+  
+  imageMode(CENTER)
 }
 
 function draw() {
@@ -15,7 +17,7 @@ function draw() {
   switch(state) {
       case 0:
       background(100);
-      image(img1, 800, 800);
+      image(img1, width/2, height/2, 400, 200);
 
       timer = timer + 1;
       if (timer > 5 * 60){
@@ -26,7 +28,7 @@ function draw() {
 
       case 1:
       background ('black');
-      image(img2, 800, 800);
+      image(img2, width/2, height/2, 400, 200);
 
       timer = timer + 1;
       if (timer > 5 * 60){
@@ -37,7 +39,7 @@ function draw() {
 
       case 2:
       background ('red');
-      image(img3, 800, 800);
+      image(img3, width/2, height/2, 400, 200);
       timer = timer + 1;
       if (timer > 5 * 60){
         state = 0;
