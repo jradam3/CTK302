@@ -17,7 +17,7 @@ function draw() {
   switch(state) {
       case 0:
       background(100);
-      image(img1, width/2, height/2+210, 400, 200);
+      image(img1, width/2, 800, 800);
 
       timer = timer + 1;
       if (timer > 5 * 60){
