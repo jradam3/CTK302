@@ -4,9 +4,9 @@ let numberOfTouches = 0;
 function setup() {
   createCanvas(400, 400);
 
-  img1 = loadImage('assets/1.png');
-  img2 = loadImage('assets/2.png');
-  img3 = loadImage('assets/3.png');
+  img1 = loadImage('assets/1.jpg');
+  img2 = loadImage('assets/2.jpg');
+  img3 = loadImage('assets/3.jpg');
 
     imageMode(CENTER)
 }
